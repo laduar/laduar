@@ -15,7 +15,7 @@ SCOPES = [
 
 def authenticate():
     flow = InstalledAppFlow.from_client_secrets_file("client_secret.json", SCOPES)
-    creds = flow.run_local_server()
+    creds = flow.run_console()
     drive = build("drive", "v3", credentials=creds)
     youtube = build("youtube", "v3", credentials=creds)
     return drive, youtube
