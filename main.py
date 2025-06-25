@@ -4,7 +4,7 @@ from googleapiclient.http import MediaIoBaseDownload, MediaFileUpload
 from google_auth_oauthlib.flow import InstalledAppFlow
 
 # === CONFIGURE THIS ===
-FOLDER_ID = "1xyepyNXc_j_ThL0A_vzfqTek5g4BRKJm
+FOLDER_ID = "1xyepyNXc_j_ThL0A_vzfqTek5g4BRKJm"
 "
 VIDEO_PATH = "./videos"
 UPLOAD_INTERVAL = 30 * 60  # every 30 minutes
